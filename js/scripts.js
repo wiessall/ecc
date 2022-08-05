@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    Pace.on("done:, function(){
-      $(\".pre_loader\").css(\"display\", none)
-    }")
+    Pace.on("done":, function(){
+      $(".pre_loader").css("display", "none")
+    });
 
-    $("#js-rotating").Morphext({
+    $("#rotating-text").Morphext({
         // The [in] animation type. Refer to Animate.css for a list of available animations.
         animation: "bounceIn",
         // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
@@ -14,4 +14,5 @@ $(document).ready(function() {
             // Called after the entrance animation is executed.
         }
     });
-})
+
+});
