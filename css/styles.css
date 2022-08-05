@@ -40,7 +40,6 @@ Pre-Loader
 #hero .hero_inner-wrapper {
     display:table-cell;
     vertical-align:middle;
-    text-decoration:none;
     
 }
 
@@ -52,6 +51,6 @@ Pre-Loader
     color:white;
 }
 
-# hero .hero_title {
+# hero .hero_inner-wrapper.hero_title {
     text-decoration:none;
 }
