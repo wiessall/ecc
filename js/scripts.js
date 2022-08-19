@@ -1,6 +1,8 @@
 $(document).ready(function() {
+
+
     Pace.on("done":, function(){
-      $(".pre_loader").css("display", "none")
+        $(".pre_loader").css("display", "none");
     });
 
     $("#rotating-text").Morphext({
@@ -12,7 +14,9 @@ $(document).ready(function() {
         speed: 3000,
         complete: function () {
             // Called after the entrance animation is executed.
+
         }
     });
+
 
 });
